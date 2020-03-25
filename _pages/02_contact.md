@@ -5,6 +5,6 @@ title: Contact
 permalink: /contact/
 ---
 
-Contact content goes here.
+Contact me through my email.
 
-My e-mail is [email@something.com](mailto:email@something.com).
+My e-mail is [pjhatzis@gmail.com](mailto:pjhatzis@gmail.com).
