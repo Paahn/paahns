@@ -121,18 +121,27 @@ footer {
   opacity: 0.7;
 }
 .fa-linkedin {
-  background: #007bb5;
+  background: #cbd0d3;
   color: white;
 }
 .fa-github {
-  background: #273841;
+  background: #cbd0d3;
   color: white;
 }
 .fa-stack-overflow {
-  background: #02444d;
+  background: #cbd0d3;
   color: white;
 }
 .fa-medium {
-  background: #677b85;
+  background: #cbd0d3;
   color: white;
+}
+.social-me {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
 }
