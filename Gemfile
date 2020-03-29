@@ -13,6 +13,15 @@ gem "jekyll", "~> 3.8.5"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
 
+# Group for testing and debugging
+group :development, :test do
+  gem "rspec"
+  gem "selenium-webdriver"
+  gem "capybara"
+  gem "rack-jekyll"
+  gem "pry"
+end
+
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
