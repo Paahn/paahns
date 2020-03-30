@@ -1,7 +1,7 @@
 ---
 
 layout: page
-title: Panos Hatzinikolaou
+title: About
 permalink: /about/
 ---
 
