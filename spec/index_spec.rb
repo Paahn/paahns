@@ -8,4 +8,9 @@ describe "Page title" do
   it "has a correct title" do
     expect(page).to have_title("Panos Hatzinikolaou")
   end
+  
+  it "has navigation to the others pages" do
+    expect(page).to have_css(".container nav ul li a", count: 3)
+  end
+
 end
