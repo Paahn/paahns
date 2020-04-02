@@ -14,7 +14,7 @@ describe "Page title" do
   end
 
   it "has the footer" do
-    expect(page).to have_css("footer")
+    expect(page).to have_css("footer p", text: "Panos Hatzinikolaou 2020")
   end
 
 end
