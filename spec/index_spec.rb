@@ -13,4 +13,8 @@ describe "Page title" do
     expect(page).to have_css(".container nav ul li a", count: 3)
   end
 
+  it "has the footer" do
+    expect(page).to have_css("footer")
+  end
+
 end
